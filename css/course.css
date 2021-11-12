@@ -9,6 +9,15 @@ main{
     align-items: center;
     justify-content: center;
     padding: 5% 0px;
+    flex-direction: column;
+}
+.chead{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .courseVideo{
     height: fit-content;
@@ -20,10 +29,38 @@ main{
     flex-direction: column;
     padding: 4% 0px;
 }
+.cmain{
+    height: 85vh;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    box-shadow: 2px 3px 5px 8px rgba(128, 128, 128, 0.438);
+    margin: 2vh 0px;
+}
+.cohead{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.cohead h2{
+    background-color: rgba(106, 106, 250, 0.637);
+    width: fit-content;
+    padding: 2%;
+    font-size: 20px;
+    border-radius: 20px 0px 0px 0px;
+
+}
 .courses{
     width: 90%;
     height: 70vh;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     align-items: center;
     overflow-x: scroll;
@@ -32,14 +69,37 @@ main{
 .crcards{
     width: 300px;
     height: 380px;
-    /* border: 2px solid black; */
     margin: 0px 20px;
     border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     box-shadow: 3px 4px 8px 8px rgba(128, 128, 128, 0.459);
 }
 .crcards img{
-    width: 298px;
-    height:280px;
-    border: 2px solid black;
+    width: 296px;
+    height:320px;
+    /* border: 2px solid black; */
     border-radius: 20px 20px 0px 0px;
+}
+.crBtns{
+    width: 100%;
+    background-color: red;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 20px 20px;
+}
+.crBtns a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+
+}
+.crBtns a:hover{
+    transform: scale(0.9);
 }
