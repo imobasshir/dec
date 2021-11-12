@@ -8,8 +8,8 @@ nav {
     height: 10vh;
     width: 100%;
     background-color: black;
-    position: sticky;
-    top: 0;
+    position: sticky; 
+    top: 0; 
     color: white;
 }
 
@@ -29,6 +29,14 @@ nav {
     align-items: center;
     justify-content: center;
     color: white;
+}
+.left img{
+    height: 80px;
+    width: auto; 
+}
+.left1 img{
+    height: 70px;
+    width: auto;
 }
 .ham-icon1{
     width: 0px;
@@ -107,6 +115,7 @@ nav {
 
 .right1 ul li {
     margin-top: 8px;
+    background-color: #000;
 }
 
 .right1 ul li a {
@@ -345,9 +354,9 @@ main {
     overflow-x: scroll;
     
 }
-.crCards::-webkit-scrollbar{
+/* .crCards::-webkit-scrollbar{
     visibility: hidden;
-}
+} */
 .cards{
     height: 350px;
     width: 280px;
@@ -363,7 +372,7 @@ main {
     cursor: pointer;
 }
 .cards:hover{
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 .crImg{
     width: 280px;
@@ -539,14 +548,14 @@ main {
 
  footer{
      height: 30vh;
-     background-color: red;
+     background-color: cyan;
      width: 100%;
      display: flex;
      align-items: center;
      justify-content: center;
      flex-direction: column;
-     color: white;
-     filter: invert(1);
+     color: black;
+     /* filter: invert(1); */
 
  }
  .links{
