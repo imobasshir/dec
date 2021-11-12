@@ -121,4 +121,18 @@
     .modal-content{
         width: 80%;
     }
+    .chat_icon{
+        right: 10px;
+    }
+    .chatbox{
+        width: 340px;
+        right: 0;
+        font-size: 14px;
+    }
+    .chatbox input{
+        width: 80%;
+    }
+    .input{
+        width: 60%;
+    }
 }
