@@ -32,10 +32,14 @@ main{
 .crcards{
     width: 300px;
     height: 380px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: 0px 20px;
+    border-radius: 20px;
+    box-shadow: 3px 4px 8px 8px rgba(128, 128, 128, 0.459);
 }
 .crcards img{
-    width: 300px;
+    width: 298px;
     height:280px;
+    border: 2px solid black;
+    border-radius: 20px 20px 0px 0px;
 }
