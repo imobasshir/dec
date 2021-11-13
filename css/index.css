@@ -200,6 +200,16 @@ nav {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}.close2 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close2:hover, .close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .form {
@@ -217,19 +227,28 @@ nav {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    /* border: 2px solid black; */
 }
 
 .feild input {
     width: 90%;
     height: 30px;
 }
-
-.feild button {
-    margin: auto;
+.feilds{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.feilds button{
     width: 150px;
     height: 35px;
     border-radius: 5px;
+    margin-bottom: 5px;
 }
+
 
 main {
     z-index: -1;
