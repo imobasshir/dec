@@ -157,4 +157,18 @@
     .input{
         width: 60%;
     }
+    .errorImg{
+        margin-bottom: 20px;
+    }
+    .errMsg{
+        height: 15vh;
+    }
+    .errMsg h2{
+        font-size: 16px;
+
+    }
+    .feildss{
+        font-size: 15px;
+        padding: 3%;
+    }
 }

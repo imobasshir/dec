@@ -177,36 +177,28 @@ nav {
 
 /* The Close Button */
 
-.close {
+.close,.close1,.close2,.close3 {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
-
-
 .close:hover, .close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
 }
-.close1 {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
 .close1:hover, .close1:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-}.close2 {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
 }
 .close2:hover, .close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close3:hover, .close3:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
@@ -247,6 +239,42 @@ nav {
     height: 35px;
     border-radius: 5px;
     margin-bottom: 5px;
+}
+.erimg{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.errorImg{
+    height: 100px;
+    width: auto;
+    margin: 0px auto;
+}
+.errMsg{
+    width: 90%;
+    height: 20vh;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.feildss {
+    width: 100%;
+    height: 50px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* border: 2px solid black; */
+    padding: 5%;
+    margin: auto;
+    font-size: 20px;
+}
+.feildss  h4{
+    margin: 10px 0px;
 }
 
 
