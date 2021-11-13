@@ -371,9 +371,9 @@ main {
     transition: 0.4s ease-in-out;
     cursor: pointer;
 }
-.cards:hover{
+/* .cards:hover{
     transform: scale(0.9);
-}
+} */
 .crImg{
     width: 280px;
     height: 300px;
@@ -394,11 +394,13 @@ main {
     color: white;
     font-size: 20px;
     text-decoration: none;
+    transition: 0.4s ease-in-out;
 
 }
-/* .cLink a:hover{
-    background-color: ;
-} */
+.cLink a:hover{
+    transform: scale(0.9);
+}
+
 
 
 /* about us starts from here  */
